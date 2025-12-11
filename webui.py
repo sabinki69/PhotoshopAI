@@ -92,7 +92,8 @@ def inpaint_mode_change(mode, inpaint_engine_version):
 
 reload_javascript()
 
-title = f'Fooocus Inpaint Only'
+# Changed title here
+title = f'photoshop AI'
 
 shared.gradio_root = gr.Blocks(title=title).queue()
 
